@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+    <script>
+        const UserName = "<%= uName %>"
+        const UserId = "<%= uId %>"
+        console.log(UserId)
+        localStorage.setItem("Username", UserName)
+        localStorage.setItem("Userid", UserId)
+
+    </script>
+
+    <script src='https://use.fontawesome.com/aa2b8cb467.js ' crossorigin='anonymous'></script>
+
+    <title>CONNECT</title>
+
+    <link rel="shortcut icon" type="text/css" href="/video-conference.png">
+    <link rel="stylesheet" type="text/css" href="/styleNew.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body style="margin: 0;">
+
+    <div id="login" class="container-fluid">
+
+
+        <nav class="navbar navbar-light navbar-expand-lg navigation-clean">
+            <div class="container-fluid">
+                <a class="navbar-brand"> <img src="/video-conference.png" alt="" width="40" height="40"
+                        class="d-inline-block" style="background: var(--bs-white); padding: 10px; float: left;"></img>
+                    CONNECT
+                </a>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="d-flex justify-content-center h-100">
+                <div class="card d-block justify-content-center">
+                    <div class="card-header">
+                        <h2><strong>Collaborate</strong> and celebrate</h2>
+                    </div>
+                    <div class="card-body">
+                        <div><a href="/newMeeting/"><button class="btn btn-primary d-block w-250" type="button"
+                                    title="start meeting">Start
+                                    Meeting</button></a><br></br>
+                        </div>
+                        <div><a href='/chatRoom/'><button class="btn btn-primary d-block w-250" type="button"
+                                    title="chat">Chat</button></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

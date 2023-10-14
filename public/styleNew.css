@@ -1,0 +1,93 @@
+html, body {
+    background-image: url(https://s3.us-east-1.amazonaws.com/files.tvisha.aws/posts/crm/panel/attachments/1592670168/webp-net-resizeimage-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+  
+.navigation-clean {
+    background: #fff;
+} 
+    
+@media (min-width:992px) {
+      .navigation-clean {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+}
+    
+.navigation-clean .navbar-brand {
+    font-weight: 400;
+    color: rgb(35, 38, 39);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    align-content: justify;
+}
+     
+.navigation-clean.navbar-light .navbar-nav .nav-link.active, .navigation-clean.navbar-light .navbar-nav .nav-link.active:focus, .navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
+    color: #8f8f8f;
+    box-shadow: none;
+    background: none;
+    pointer-events: none;
+}
+    
+.navigation-clean.navbar .navbar-nav .nav-link {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+    
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+    color: #37434d !important;
+    background-color: #f1f7fc;
+} 
+    
+.btn-primary {
+    background: #d83b5b;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    text-shadow: none;
+    outline: none !important;
+    cursor: pointer;
+    size: 30px;
+    width: 250px;
+    color:rgb(255, 255, 255);
+    font-size: medium;
+}
+
+.card-body{
+    position:relative;
+    margin: 70px;
+}
+
+.btn-primary:hover{
+    background: #e92f57;
+    background-color: #ee365b;
+}
+  
+.card {
+    height: 300px;
+    margin: auto;
+    border-radius: 5px;
+    width: 400px;
+    background-color: rgb(255, 255, 255, 0.95) !important;
+    align-items: center;
+    justify-items: center;
+    margin-top: 104px;
+    margin-left:500px;
+}
+
+.card-header h2 {
+    color: rgb(35, 38, 39);
+    align-self: center;
+    padding: 20px;
+    margin: 30px;
+}
+
